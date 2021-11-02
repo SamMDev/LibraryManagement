@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/library?serverTimezone=UTC
+    username: root
+    password:
+
+    hikari:
+     connectionTimeout: 20000
+     maximumPoolSize: 5
+
+server:
+  port: 8080
